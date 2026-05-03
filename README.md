@@ -5,7 +5,7 @@ It listens for incoming messages and replies **"Polo!!"** whenever a message con
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Receives Telegram webhook updates
 * Parses incoming messages
@@ -13,7 +13,7 @@ It listens for incoming messages and replies **"Polo!!"** whenever a message con
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Node.js
 * Express
@@ -22,7 +22,7 @@ It listens for incoming messages and replies **"Polo!!"** whenever a message con
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -39,7 +39,7 @@ npm install
 
 ---
 
-## ▶️ Running the App
+##  Running the App
 
 Start the server:
 
@@ -55,7 +55,7 @@ Telegram app listening on port 3000!
 
 ---
 
-## 🔗 Setting Up Telegram Webhook
+##  Setting Up Telegram Webhook
 
 Replace `<YOUR_BOT_TOKEN>` with your bot token and run:
 
@@ -65,7 +65,7 @@ curl.exe -F "url=https://your-domain.vercel.app/api/new-message" https://api.tel
 
 ---
 
-## 💡 How It Works
+##  How It Works
 
 1. Telegram sends updates to your webhook
 2. The app checks if the message contains "marco"
